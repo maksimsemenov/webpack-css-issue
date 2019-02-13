@@ -1,0 +1,49 @@
+{
+  "name": "webpack-css-issue",
+  "version": "1.0.0",
+  "description": "Webpack does not process css files from node_modules in production mode",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "build:dev": "webpack --config webpack.dev.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@blueprintjs/core": "2.3.1",
+    "@blueprintjs/datetime": "2.0.3",
+    "@blueprintjs/icons": "2.2.1",
+    "@blueprintjs/select": "2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.3.0",
+    "@babel/plugin-proposal-export-default-from": "7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "7.2.0",
+    "@babel/plugin-proposal-function-bind": "7.2.0",
+    "@babel/plugin-proposal-function-sent": "7.2.0",
+    "@babel/plugin-proposal-json-strings": "7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "7.2.0",
+    "@babel/plugin-proposal-throw-expressions": "7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-syntax-import-meta": "7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "8.0.5",
+    "clean-webpack-plugin": "1.0.0",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "0.28.11",
+    "file-loader": "1.1.11",
+    "mini-css-extract-plugin": "0.5.0",
+    "webpack": "4.28.4",
+    "webpack-cli": "3.2.1",
+    "webpack-dev-server": "3.1.14"
+  }
+}
