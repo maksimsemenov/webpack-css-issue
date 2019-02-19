@@ -38,7 +38,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "vital-blueprint.css"
+      filename: "[name].css"
     }),
     new CleanWebpackPlugin(["./dist-dev"])
   ]
